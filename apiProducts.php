@@ -1,5 +1,5 @@
 <?php
-include('../apimatrixgym/Models/products.php');
+include_once 'products.php';
 class ApiProducts {
     function getAll() {
         $product = new Producto();
