@@ -17,7 +17,8 @@ class Database {
 
     function conect() {
         try {
-            $connection = "mysql:host=". $this->host. ";dbname=". $this->db. ";charset=". $this->charset;
+            
+            $connection = "mysql://root:14-1fdfa2A4AC3-5fc2HBhE2Hg4GdC1c@mysql.railway.internal:3306/railway";
             $options = [
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                 PDO::ATTR_EMULATE_PREPARES => false,
