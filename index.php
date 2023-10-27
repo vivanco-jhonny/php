@@ -1,5 +1,5 @@
 <?php
-include_once ('../apimatrixgym/Controller/Api/apiProducts.php');
+include_once 'apiProducts.php';
 
 $api = new ApiProducts();
 $api->getAll();
