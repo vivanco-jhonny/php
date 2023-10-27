@@ -8,10 +8,10 @@ class Database {
 
     public function __construct()
     {
-        $this->host = "localhost";
-        $this->db = "matrixgym";
+        $this->host = "roundhouse.proxy.rlwy.net";
+        $this->db = "railway";
         $this->user = "root";
-        $this->password  = "";
+        $this->password  = "14-1fdfa2A4AC3-5fc2HBhE2Hg4GdC1c";
         $this->charset = "utf8mb4";
     }
 
